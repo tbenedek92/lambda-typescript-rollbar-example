@@ -35,6 +35,7 @@ compile:
 # Note: This aims to build reproducable zip files, hence the touch to reset timestamps
 build: clean	
 	npm install --production --no-optional
+	touch index.js
 	find index.js lib node_modules -exec touch -t 201701010000 {} +
 	zip -X -q -r handler.zip index.js lib node_modules
 	npm install

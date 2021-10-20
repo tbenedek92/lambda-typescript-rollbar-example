@@ -1,12 +1,11 @@
 {
-  "name": "lambda-typescript-skeleton",
+  "name": "lambda-typescript-rollbar-example",
   "version": "1.0.0",
-  "description": "Lambda with typescript skeleton project.",
+  "description": "Lambda with typescript with Rollbar skeleton project.",
   "main": "./index.js",
   "types": "./index.d.ts",
-  "author": "Mark Wolfe <mark@wolfe.id.au>",
   "license": "MIT",
-  "repository": "https://github.com/wolfeidau/lambda-typescript-skeleton.git",
+  "repository": "https://github.com/tbenedek92/lambda-typescript-rollbar-example.git",
   "scripts": {
     "lint": "tslint .",
     "pretest": "tsc test/*.test.ts --module commonjs",
