@@ -1,5 +1,6 @@
 # lambda-typescript-rollbar-example
 To use Rollbar with this example, you will need to replace the <ACCESS_TOKEN> in index.ts file with your Rollbar project's access token.
+
 This skeleton contains a basic [Amazon Web Services](https://aws.amazon.com/) (AWS) lambda function written in [Typescript](https://www.typescriptlang.org) with tests, linting and deployment configuration using AWS [Serverless Application Model](https://github.com/awslabs/serverless-application-model) (SAM).
 
 
