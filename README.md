@@ -91,4 +91,5 @@ AWS_PROFILE=myawsprofile AWS_REGION=us-west-2 BUCKET=somebucket.example.com make
 
 # License
 Used https://github.com/wolfeidau/lambda-typescript-skeleton.git as a source for the skeleton.
+
 This project is released under The Unlicense, your free to copy this and do what you like.
